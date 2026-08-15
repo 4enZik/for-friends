@@ -2,8 +2,7 @@ const compliments = [
     "Самые красивые глаза",
     "Много не пей)",
     "Дудеу не дам",
-    "Охуенные ноги"
-    
+    "Охуенные ноги",
 ];
 
 const btnCompliment = document.getElementById('btn-compliment');
@@ -18,7 +17,7 @@ btnCompliment.addEventListener('click', () => {
 });
 
 btnSurprise.addEventListener('click', () => {
-    dynamicText.textContent = "🎈Улыбнись, если стало грустно🎈";
+    dynamicText.textContent = "🎈 Улыбнись, если стало грустно🎈";
     dynamicText.classList.remove('hidden');
     
     // Эффект конфетти прямо в консоли или можно добавить анимацию
